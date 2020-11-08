@@ -32,6 +32,7 @@ export default StyleSheet.create({
     top: 0,
     height: 1,
     width: 1,
+    borderWidth: 1,
     opacity: 0,
     left: 0,
   },
@@ -42,9 +43,7 @@ export default StyleSheet.create({
 
   inputContainer: {
     flexDirection: 'row',
-    // borderWidth: 1,
     position: 'relative',
-    // backgroundColor: '#fabfcb',
   },
 
   placeholder: {

@@ -169,7 +169,6 @@ const CodeInput = forwardRef<TextInput, CodeInputProps>((props, ref) => {
           setInputFocused(true);
           onFocus && onFocus(e);
         }}
-        secureTextEntry={secureTextEntry}
         onSubmitEditing={
           activeIndex === length - 1 ? onSubmitEditing : focusNextDigit
         }
